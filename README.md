@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perpustakaan Digital Rafikha</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        nav a { margin: 0 15px; text-decoration: none; }
-        .container { max-width: 800px; margin: auto; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        table, th, td { border: 1px solid black; padding: 10px; }
-        form { margin-top: 20px; }
-        label, input, textarea { display: block; margin-top: 10px; width: 100%; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        nav { background: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 20px; }
+        h1, h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #fff; }
+        table, th, td { border: 1px solid black; padding: 10px; text-align: left; }
+        th { background: #ddd; }
+        form { background: #fff; padding: 20px; box-shadow: 0px 0px 5px rgba(0,0,0,0.1); }
+        label, input, textarea { display: block; margin-top: 10px; width: 100%; padding: 8px; }
+        button { margin-top: 10px; padding: 10px; background: #333; color: white; border: none; cursor: pointer; }
+        button:hover { background: #555; }
     </style>
 </head>
 <body>
